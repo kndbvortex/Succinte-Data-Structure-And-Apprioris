@@ -1,0 +1,5 @@
+All : q
+	obc -o q QueueInt.Mod
+	obc -o q ListeInt.Mod
+	obc -o q Arrete.Mod
+	obc -o q QueueInt.Mod Arrete.Mod ListeInt.Mod Graphe.Mod

@@ -1,0 +1,8 @@
+All : q
+	obc -o q QueueInt.Mod
+	obc -o q ListeInt.Mod
+	obc -o q Arc.Mod
+	make -f makeTree
+	make -f makeGraphe
+	obc -o q QueueInt.Mod Arc.Mod Arrete.Mod ListeInt.Mod Tree.Mod Graphe.Mod Structure.Mod 
+	
